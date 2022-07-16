@@ -21,7 +21,6 @@ import { AntDesign as Icon } from '@expo/vector-icons';
 
 interface DataProps {
   value: number;
-  isVisible: boolean;
 }
 
 interface StackListProps {
@@ -196,8 +195,4 @@ export function StackList(props: StackListProps) {
       </S.StackListContainer>
     </GestureDetector>
   );
-}
-
-function FunctionalComponent(props) {
-  return <View collapsable={false}>{props.children}</View>;
 }

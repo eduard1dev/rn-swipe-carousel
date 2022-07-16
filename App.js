@@ -4,10 +4,10 @@ import { StackList } from './src/screens/StackListScreen';
 
 export default function App() {
   const data = [
-    { value: 1, isVisible: true },
-    { value: 2, isVisible: true },
-    { value: 3, isVisible: true },
-    { value: 4, isVisible: true },
+    { value: 1},
+    { value: 2},
+    { value: 3},
+    { value: 4},
   ];
 
   return (

@@ -20,7 +20,6 @@ export const CardContainer = styled.View<CardContainerProps>`
   position: absolute;
 
   left: ${(props) => `${width / 2 - props.width / 2}px`};
-  //top: 150px;
 `;
 
 export const CardTitle = styled.Text`
